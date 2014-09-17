@@ -48,7 +48,7 @@ var PhaserGenerator = yeoman.generators.Base.extend({
     ];
 
     this.prompt(prompts, function (props) {
-      this.projectName = props.projectName
+      this.projectName = props.projectName;
       this.phaserVersion = props.phaserVersion;
       this.gameHeight = props.gameHeight;
       this.gameWidth = props.gameWidth;
